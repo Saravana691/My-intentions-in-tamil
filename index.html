@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>என் வாழ்வில்</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Tamil:wght@400;700&display=swap');
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Noto Sans Tamil', sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background: linear-gradient(135deg, #fbc2eb 0%, #a6c1ee 100%);
+      color: #3e3e3e;
+      padding: 20px;
+      animation: fadeIn 2s ease-out;
+    }
+
+    .poem-container {
+      background: rgba(255, 255, 255, 0.8);
+      border-radius: 20px;
+      padding: 30px 20px;
+      max-width: 500px;
+      text-align: center;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+      animation: slideIn 1.5s ease-out;
+    }
+
+    h1 {
+      font-size: 1.8rem;
+      margin-bottom: 20px;
+      color: #4a148c;
+    }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.8;
+      white-space: pre-line;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes slideIn {
+      from {
+        transform: translateY(50px);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .poem-container {
+        padding: 20px 15px;
+      }
+
+      h1 {
+        font-size: 1.5rem;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="poem-container">
+    <h1>என் வாழ்வில்</h1>
+    <p>
+வழித்துணையென இருக்கும் தோழியே உன்னை
+வாழ்க்கைத்துணையாக அழைக்கிறேன் கரம் பிடிக்க
+உன்னை பிடித்து வைத்து வாழ அல்ல
+உனக்கு பிடித்தவாரே வாழ
+உன்னை செதுக்கி மாற்றியமைக்க அல்ல
+உன்னை செழிப்புற அழகு பார்க்க
+உன்னை நான் ஆள அல்ல
+உன்னோடு அன்புடன் வாழ
+அனுதாபாதத்தில் பிறந்ததல்ல என் காதல்
+அன்பிலும் உன் பண்பிலும் பிறந்ததே
+அவசரத்தில் எடுத்ததல்ல இந்த முடிவு
+ஆழ்ந்த சிந்தனைக்கு பின் எடுத்ததே
+நீலா துயரமும் மறக்கும் அளவிற்கு
+நித்தமும் அழகாய் வாழ ஆசை
+நீ கூட சொல்லாம் என் அன்பிற்கு நான் தகுதியல்ல
+நீ புரிந்து கொள்ள வேண்டும் நான் பாக்கியசாலி
+சொல்வதில் தான் தயக்கம் இதைத் தவிர
+செல்வதில் உறுதி உன்னுடன் இறுதிவரை
+இப்பொழுதும் உன்னை இறுக்கவில்லை
+இன்றல்ல நாளையோ என நம்பி இருக்கிறேன்
+இப்பிறவியின் வரம் ஒன்றெனில்
+இனிய பதில் நீ சொல்ல வேண்டும்
+    </p>
+  </div>
+</body>
+</html>
